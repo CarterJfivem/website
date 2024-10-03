@@ -1,0 +1,44 @@
+body{
+    margin-top: 100px;
+    display: flex;
+    height: 95vh;
+    background-color: rgb(31, 31, 31);
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1{
+    background: rgb(160, 160, 160);
+    height: 50vh;
+    width: 50vh;
+    border-radius: 1.4vh;
+    border: 1vh solid black;
+}
+.box{
+    background: rgb(236, 107, 107);
+    width: 10vh;
+    height: 10vh;
+    border: 0.6vh solid rgb(245, 57, 57);
+    border-radius: 1.4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inter{
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+}
+/* end of base style */
+.container1{
+    padding: 2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 1.5vh;
+}
